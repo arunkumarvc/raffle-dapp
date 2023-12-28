@@ -148,7 +148,10 @@ export default function Raffle() {
             onClick={connectMetaMask}
           >
             {isConnecting ? (
-              <span className="h-8 w-8 animate-spin rounded-full border-b-2 border-gray-900"></span>
+              <>
+                <span className="mr-4 h-8 w-8 animate-spin rounded-full border-b-2 border-gray-900"></span>
+                Connecting...
+              </>
             ) : (
               "Connect MetaMask"
             )}
@@ -169,7 +172,10 @@ export default function Raffle() {
                 disabled={isLoading}
               >
                 {isLoading ? (
-                  <span className="h-8 w-8 animate-spin rounded-full border-b-2 border-gray-900"></span>
+                  <>
+                    <span className="mr-4 h-8 w-8 animate-spin rounded-full border-b-2 border-gray-900"></span>
+                    Transaction in progress...
+                  </>
                 ) : (
                   "Enter Raffle"
                 )}
