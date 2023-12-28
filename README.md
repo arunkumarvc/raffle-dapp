@@ -1,14 +1,12 @@
-# Raffle Dapp: Enter to Win with Transparent Randomness
+# Raffle Dapp: A Fair and Secure Raffle Experience on the Blockchain
 
 ![Image](/frontend/public/site-preview.png)
-
-## A Fair and Secure Raffle Experience on the Blockchain
-
-Welcome to the Raffle Dapp, where you can participate in exciting raffles and win ETH prizes! Built on the Ethereum Sepolia Testnet, this Dapp ensures fairness and transparency in every raffle through the integration of Chainlink VRF v2 for verifiable randomness.
 
 ## Overview
 
 This decentralized application (Dapp) allows users to participate in raffles and win ETH. It leverages Chainlink VRF to ensure transparent and verifiable randomness in winner selection.The raffle contract is written in Solidity and deployed on Ethereum Sepolia Testnet.
+
+[Live Demo](https://dapp-raffle.vercel.app/)
 
 ## Key Features
 
