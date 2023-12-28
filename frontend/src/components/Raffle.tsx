@@ -163,7 +163,7 @@ export default function Raffle() {
               <Image
                 src={enterToWin}
                 alt="raffle logo"
-                className="-z-50 w-28"
+                className="-z-50 w-28 select-none"
               ></Image>
 
               <button
@@ -186,7 +186,7 @@ export default function Raffle() {
                   <Image
                     src={shapes2}
                     alt="shapes"
-                    className="w-[80rem]"
+                    className="w-[80rem] select-none"
                   ></Image>
                 </div>
               </div>

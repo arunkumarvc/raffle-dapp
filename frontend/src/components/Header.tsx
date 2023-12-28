@@ -11,7 +11,7 @@ export default function Header() {
         alt="raffle logo"
         quality={95}
         priority={true}
-        className="mx-auto w-[28rem]"
+        className="mx-auto w-[28rem] select-none"
       ></Image>
       <div className="absolute inset-0 -top-32 -z-50 mx-auto hidden h-[40rem]  flex-1 bg-gradient-radial from-[#E36EFF]/20 to-60% sm:block sm:w-[40rem] lg:w-[60rem]"></div>
       {/* Background Shapes */}
@@ -20,7 +20,7 @@ export default function Header() {
           <Image
             src={shapes}
             alt="shapes"
-            className="w-[80rem] opacity-75"
+            className="w-[80rem] select-none opacity-75 "
           ></Image>
         </div>
       </div>
@@ -29,7 +29,7 @@ export default function Header() {
           <Image
             src={shapes1}
             alt="shapes"
-            className="w-[42rem] opacity-50"
+            className="w-[42rem] select-none opacity-50"
           ></Image>
         </div>
       </div>
