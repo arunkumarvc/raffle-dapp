@@ -16,7 +16,3 @@
     @apply rounded-full bg-gradient-to-t from-[#371989] to-[#1B7EC0] px-6 py-3 text-center text-base font-medium;
   }
 }
-
-/* * {
-  outline: solid red 1px;
-} */

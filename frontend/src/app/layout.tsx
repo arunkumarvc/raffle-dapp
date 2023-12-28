@@ -28,5 +28,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-// className={`${inter.className} relative -z-10 h-screen  overflow-hidden bg-gradient-to-br from-[#FFD884] from-20% to-[#FFA051] text-gray-950`}
