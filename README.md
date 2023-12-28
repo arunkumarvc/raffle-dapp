@@ -36,6 +36,8 @@ Clone the repository:
 git clone https://github.com/arunkumarvc/raffle-dapp.git
 
 cd raffle-dapp
+
+yarn install
 ```
 
 ## Usage
