@@ -7,8 +7,22 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Raffle Dapp",
-  description:
-    "A contract that allows users to enter a raffle and win a prize.",
+  description: "A Fair and Secure Raffle Experience on the Blockchain",
+  openGraph: {
+    title: "Raffle Dapp",
+    description: "A Fair and Secure Raffle Experience on the Blockchain",
+    url: "https://dapp-raffle.vercel.app/",
+    siteName: "Raffle Dapp",
+    images: [
+      {
+        url: "https://dapp-raffle.vercel.app/og.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
